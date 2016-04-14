@@ -1,0 +1,19 @@
+{
+  "name": "2dueapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2dueapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eric-Humpert-tiy-assignments/2_Due_App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eric-Humpert-tiy-assignments/2_Due_App/issues"
+  },
+  "homepage": "https://github.com/Eric-Humpert-tiy-assignments/2_Due_App#readme"
+}
