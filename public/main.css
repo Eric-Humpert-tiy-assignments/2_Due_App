@@ -81,9 +81,10 @@ Todo List styling
 	border-style: none;
 	font-family: 'Tisa Pro', serif;
 	font-size: .80em;
+	width: 100%;
 }
 
-.toDoList {
+.list-box {
 	background-color: lightgray;
 	border-radius: 10px;
 	padding: 3%;
@@ -104,7 +105,7 @@ Todo List styling
 	margin-bottom: 4%;
 }
 
-.list-box h1 {
+.list-title {
   font-family: "Tisa Pro", serif;
   font-size: 2em;
   padding: 1%;
@@ -117,6 +118,7 @@ Todo List styling
 }
 
 #task-bar a {
+	color: black;
 	font-family: 'Tisa Pro';
 	text-decoration: none;
 	padding: 1%;
