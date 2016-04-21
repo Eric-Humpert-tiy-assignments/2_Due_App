@@ -47,31 +47,59 @@ table {
 	border-spacing: 0;
 }
 
-#task-adder {
-	border-style: none;
-	font-family: 'Tisa Pro', serif;
-	font-size: 1em;
+/*****************************************************
+General whole page styling
+*****************************************************/
+
+@font-face {
+	font-family: 'Tisa Pro Medium';
+	src:url('../fonts/TisaPro-Medi.otf');
 }
 
+@font-face {
+	font-family: 'Tisa Pro';
+	src:url('../fonts/TisaPro.otf')
+}
+
+/*****************************************************
+Header styling block
+*****************************************************/
 
 header h1 {
-  font-family: 'Tisa Pro', serif;
+  font-family: 'Tisa Pro Medium', serif;
   font-size: 2em;
   text-align: center;
   margin: 5%;
 }
 
+/******************************************************
+Todo List styling
+******************************************************/
+
+
+#task-adder {
+	border-style: none;
+	font-family: 'Tisa Pro', serif;
+	font-size: .80em;
+}
+
+.toDoList {
+	background-color: lightgray;
+	border-radius: 10px;
+	padding: 3%;
+	margin: 1%;
+}
+
 .toDoList li {
   border-bottom: 1px solid black;
   font-family: 'Tisa Pro', serif;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 1%;
   width: 90%;
-  margin: 5%;
+  margin: 2% 5%;
 }
 
 .to-do-check {
-
 	margin-right: 4%;
 	margin-bottom: 4%;
 }
@@ -89,6 +117,7 @@ header h1 {
 }
 
 #task-bar a {
+	font-family: 'Tisa Pro';
 	text-decoration: none;
 	padding: 1%;
 }
