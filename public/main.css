@@ -47,8 +47,15 @@ table {
 	border-spacing: 0;
 }
 
+#task-adder {
+	border-style: none;
+	font-family: 'Tisa Pro', serif;
+	font-size: 1em;
+}
+
+
 header h1 {
-  font-family: sans-serif;
+  font-family: 'Tisa Pro', serif;
   font-size: 2em;
   text-align: center;
   margin: 5%;
@@ -56,21 +63,32 @@ header h1 {
 
 .toDoList li {
   border-bottom: 1px solid black;
-  font-family: sans-serif;
+  font-family: 'Tisa Pro', serif;
   font-size: 2em;
   padding: 1%;
   width: 90%;
   margin: 5%;
 }
 
+.to-do-check {
+
+	margin-right: 4%;
+	margin-bottom: 4%;
+}
+
 .list-box h1 {
-  font-family: sans-serif;
+  font-family: "Tisa Pro", serif;
   font-size: 2em;
   padding: 1%;
-  margin-left: 15%;
+  margin: 5%;
   margin-bottom: 1%;
+}
+
+#task-bar {
+	text-align: center;
 }
 
 #task-bar a {
 	text-decoration: none;
+	padding: 1%;
 }
