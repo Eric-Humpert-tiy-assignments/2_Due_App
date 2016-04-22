@@ -97,6 +97,8 @@ Todo List styling
 
 #task-adder {
 	border-style: none;
+	background-color: #ADB8C4;
+	color: #39474E;
 	font-family: 'Tisa Pro', serif;
 	font-size: .80em;
 	width: 92%;
@@ -115,7 +117,7 @@ Todo List styling
 }
 
 .toDoList li {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #39474E;
   font-family: 'Tisa Pro', serif;
   font-size: 1.5em;
   padding: 1%;
