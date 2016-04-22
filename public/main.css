@@ -53,12 +53,12 @@ General whole page styling
 
 @font-face {
 	font-family: 'Tisa Pro Medium';
-	src:url('../fonts/TisaPro-Medi.otf');
+	src:url('./fonts/TisaPro-Medi.otf');
 }
 
 @font-face {
 	font-family: 'Tisa Pro';
-	src:url('../fonts/TisaPro.otf')
+	src:url('./fonts/TisaPro.otf')
 }
 
 /*****************************************************
