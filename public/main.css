@@ -76,12 +76,15 @@ header h1 {
 Todo List styling
 ******************************************************/
 
+#check-all {
+	width: 5%;
+}
 
 #task-adder {
 	border-style: none;
 	font-family: 'Tisa Pro', serif;
 	font-size: .80em;
-	width: 100%;
+	width: 92%;
 }
 
 .list-box {
