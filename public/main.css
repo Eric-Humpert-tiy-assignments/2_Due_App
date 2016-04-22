@@ -104,10 +104,6 @@ Todo List styling
 	width: 92%;
 }
 
-.list-title {
-	color: 	#39474E;
-}
-
 .list-box {
 	background-color: #ADB8C4;
 	border-radius: 10px;
@@ -131,8 +127,9 @@ Todo List styling
 }
 
 .list-title {
-  font-family: "Tisa Pro", serif;
-  font-size: 2em;
+	color: 	#39474E;
+  font-family: "Tisa Pro Medium", serif;
+  font-size: 1.5em;
   padding: 1%;
   margin: 5%;
   margin-bottom: 1%;
