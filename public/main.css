@@ -173,8 +173,8 @@ Media Queries
 	}
 
 	.list-box .toDoList li{
-		width: 90%;
-		margin: 5%;
+		font-size: 1.75em;
+		margin: 2%;
 	}
 
 	.list-title {
