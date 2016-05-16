@@ -4,9 +4,9 @@ if (this.toDoApp === undefined) this.toDoApp = {};
 (function(context) {
 
     function checkIfChecked(task) {
-      console.log(task);
         if (task.target.checked === true) {
             console.log("It's checked!");
+            task.target.classList.add('completed');
         }
     }
 
